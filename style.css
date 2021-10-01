@@ -4,6 +4,8 @@
     list-style: none;
     font-size: 1.0rem;
     font-family: Arial;
+    background-color: #80A6E6;
+    
 }
 
 
@@ -12,54 +14,82 @@
     width: 100vw;
     height: 100vh;
     display: flex;
-    flex-direction: row-reverse;
+    flex: 1 1 350px;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
     
-
 }
+.container  h2{
+    display: flex;
+    background-color: transparent;
+    margin-bottom: 170px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.container article{
+    background-color: transparent;
+    text-align: center;
+    font-size: 20px;
+    font-weight:bold;
+    font-family: sans-serif;
+}
+
 .container .bloco1 {
     display: flex;
     flex-wrap: wrap;
     height: 150px;
     width: 250px;
-    background-color: white;
-    align-items: center;
+    background-color: #F3F1F5;
     position: absolute;
+    align-items: center;
     margin-bottom: 350px;
     border-top: 20px solid;
-    border-color: red;
-    box-shadow: 4px 4px 4px;
+    border-color: #DEC5E8;
+    box-shadow: 3px 3px 2px;
+    border-radius: 7px;
+    
 }
+
+
+
+
 
 .container .bloco2 {
     display: flex;
     flex-wrap: wrap;
     height: 150px;
     width: 250px;
-    background-color: white;
+    background-color: #F3F1F5;
     align-items: center;
     position: absolute;
     margin-left: 500px;
     margin-top: 50px;
     border-top: 20px solid;
-    border-color: blue;
-    box-shadow: 4px 4px 4px;
+    border-color: #CFE697;
+    box-shadow: 3px 3px 2px ;
+    border-radius: 7px;
+    
 }
+
 
 .container .bloco3 {
     display: flex;
     flex-wrap: wrap;
     height: 150px;
     width: 250px;
-    background-color: white;
+    background-color: #F3F1F5;
     align-items: center;
     position: absolute;
-    margin-right: 500px;
-    margin-top: 50px;
+    margin-top: 450px;
     border-top: 20px solid;
-    border-color: green;
-    box-shadow: 4px 4px 4px ;
+    border-color: #FF6E5D;
+    box-shadow: 3px 3px 2px ;
+    border-radius: 7px;
 }
 
 .container .bloco4 {
@@ -67,11 +97,21 @@
     flex-wrap: wrap;
     height: 150px;
     width: 250px;
-    background-color: white;
+    background-color: #F3F1F5;
     align-items: center;
     position: absolute;
-    margin-top: 450px;
+    margin-right: 500px;
+    margin-top: 50px;
     border-top: 20px solid;
-    border-color: yellow;
-    box-shadow: 4px 4px 4px;
+    border-color: #8CE6BC;
+    box-shadow: 3px 3px 2px ;
+    border-radius: 7px;
+    
 }
+
+.container .bloco4 article{
+    margin-left: 40px;
+}
+
+
+
