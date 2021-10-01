@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.0rem;
+    font-family: Arial;
+}
+
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container .bloco1 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 350px;
+    border-top: 20px solid;
+    border-color: red;
+    box-shadow: 4px 4px 4px;
+}
+
+.container .bloco2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 50px;
+    border-top: 20px solid;
+    border-color: blue;
+    box-shadow: 4px 4px 4px;
+}
+
+.container .bloco3 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    margin-right: 500px;
+    margin-top: 50px;
+    border-top: 20px solid;
+    border-color: green;
+    box-shadow: 4px 4px 4px ;
+}
+
+.container .bloco4 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width: 250px;
+    background-color: white;
+    align-items: center;
+    position: absolute;
+    margin-top: 450px;
+    border-top: 20px solid;
+    border-color: yellow;
+    box-shadow: 4px 4px 4px;
+}
